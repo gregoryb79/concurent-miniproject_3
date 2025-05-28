@@ -34,9 +34,8 @@ public final class SieveActor extends Sieve {
         SieveActorActor actor = sieveActor;
         while (actor != null) {
             count++;
-            System.out.println(actor.getlocalPrime());
-            actor = actor.nextActor;
-            
+            // System.out.println(actor.getlocalPrime());
+            actor = actor.nextActor;            
         }
         return count;
     }
